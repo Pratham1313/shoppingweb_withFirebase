@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
+
+  box-shadow: 0rem 0.1rem 0.5rem;
+}
+.logo_and_search {
+  display: flex;
+  gap: 1rem;
+  margin-left: 0.5rem;
+}
+
+.pages {
+  display: flex;
+  gap: 0.3rem;
+}
+
+input {
+  outline: none;
+  padding: 0.1rem;
+  width: 35vw;
+  height: 2rem;
+}
+
+button {
+  padding: 0.4rem;
+  background: #96bf48;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+  width: 5rem;
+  height: 2rem;
+}
+
+button:hover {
+  background: grey;
+}
+
+.logo {
+  height: 2rem;
+}
+
+.glow_shop {
+  background: #96bf48;
+}
+
+.cartt {
+  width: 5.2rem;
+}
+
+.user_namee {
+  color: grey;
+  text-decoration: underline #96bf48 0.12rem;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}

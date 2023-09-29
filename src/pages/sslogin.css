@@ -1,0 +1,64 @@
+.innerbox {
+  width: 28rem;
+  height: 22rem;
+  border: 2px solid black;
+  background: white;
+  margin: 0 auto;
+  border-radius: 1.2rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0px 40px;
+  font-size: 20px;
+  box-shadow: 5px 5px 30px black;
+}
+
+.outerbox {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top left, #6f8645 10%, #96bf48);
+  overflow: hidden;
+}
+form div {
+  margin: 10px 0px;
+}
+header {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  transform: translateX(-10px);
+}
+
+.input_login {
+  width: 90%;
+  height: 30px;
+  margin: 2px 0px;
+  border-radius: 5px;
+  box-shadow: 0px -2px black, 0px 2px black, 2px 0px black, -2px 0px black;
+  box-shadow: 2px 1px 6px black;
+}
+
+#create {
+  background: linear-gradient(to top left);
+  font-size: 25px;
+  height: 40px;
+  width: 200px;
+  position: relative;
+  left: 10px;
+  background: #898f9c;
+}
+
+#create:hover {
+  background: #777c88;
+}
+
+.click_here:hover {
+  color: blue;
+  cursor: pointer;
+}

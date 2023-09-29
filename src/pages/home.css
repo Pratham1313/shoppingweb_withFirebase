@@ -1,0 +1,86 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 236, 236);
+  box-shadow: 0.2rem 0.3rem 0.8rem rgb(212, 208, 208);
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  width: 28rem;
+  margin-left: 1.6rem;
+  transition: 0.7s;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.product:hover {
+  transform: scale(103%);
+  box-shadow: 0.08rem 0.1rem 1rem #a0b47d;
+}
+
+.all_products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price_p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc {
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.productimage {
+  height: 15rem;
+  object-fit: fill;
+}
+
+.dataa {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.price_p button {
+  width: 5rem;
+  padding: 0.1rem;
+  background: #96bf48;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+  height: 2rem;
+  box-shadow: 0.08rem 0.05rem 0.3rem black;
+}
+
+.price_p button:hover {
+  background: grey;
+}
+
+.search_bar {
+  margin: auto;
+  margin-top: 1rem;
+}
+
+sbutton:hover {
+  background: #96bf48;
+}
+
+.sbutton {
+  margin-left: 1rem;
+  background-color: grey;
+}

@@ -1,0 +1,56 @@
+.carttt {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart_and_checkout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout {
+  width: 21rem;
+  border-left: rgb(117, 117, 117) 0.2rem solid;
+  display: flex;
+  flex-direction: column;
+}
+.productt {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 236, 236);
+  box-shadow: 0.2rem 0.3rem 0.8rem rgb(212, 208, 208);
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  width: 20rem;
+  margin-left: 0.5rem;
+  margin-right: 0.3rem;
+  transition: 0.7s;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+h4 {
+  margin: 1rem;
+}
+
+.price_name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy_button {
+  margin-top: 3rem;
+}
+
+.empty {
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+.total {
+  border-top: 0.1rem solid grey;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
